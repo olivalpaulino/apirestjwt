@@ -1,8 +1,5 @@
 ### 📘 Projeto 3 – Autenticação JWT para APIs REST
 
-```markdown
-# Projeto 3 – API REST Segura com JWT (JSON Web Token)
-
 Este projeto transforma a aplicação em uma **API REST segura**, utilizando autenticação baseada em **JWT (stateless)** em vez de sessões.
 
 ## 🎯 Objetivo
@@ -15,12 +12,13 @@ Este projeto transforma a aplicação em uma **API REST segura**, utilizando aut
 ## 🧪 Fluxo de autenticação
 
 1. Cliente envia `POST localhost:8080/auth/login` com JSON:
-   ```json
+  
    {
      "username": "joao",
      "password": "12345"
    }
-2. Resposta:
+
+2. Resposta
 {
   "username": "joao",
   "role": "USER",
